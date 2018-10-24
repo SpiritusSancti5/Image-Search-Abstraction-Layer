@@ -1,0 +1,29 @@
+{
+  "name": "image-search",
+  "version": "0.0.1",
+  "description": "A simple Node app built on Express, instantly up and running.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.3.5",
+    "mongodb": "2.2.23",
+    "cors": "^2.8.4",
+    "body-parser": "^1.18.3",
+    "google-images": "^2.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-express"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
